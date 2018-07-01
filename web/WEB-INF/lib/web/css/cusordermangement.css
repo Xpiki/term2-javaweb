@@ -1,0 +1,60 @@
+.orderRight input {
+    width: 60px;
+    background-color: #9acfea;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+td {
+    text-align: center;
+}
+
+.fristTr {
+    font-family: 宋体;
+}
+
+.fristTr td {
+    border-right: solid 1px #add9c0;
+    border-left: solid 1px #add9c0;
+}
+
+.orderTable tr {
+    height: 30px;
+}
+
+.liclick {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Hiragino Sans GB', 'Lantinghei SC', 'Microsoft Yahei', SimSun;
+    text-align: center;
+    padding: 0 0 5px 0;
+    cursor: pointer;
+    margin-left: -1px;
+}
+.breadcrumb .focue {
+    color: darkorange;
+}
+.orderRight {
+    float: right;
+    margin-top: -50px;
+    padding-right: 20px;
+}
+.othertr td {
+    vertical-align: center;
+    color: #999999;
+}
+.tdinput input {
+    font-family: 宋体;
+    width: 80px;
+    background-color: #9acfea;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.tdinput input:hover {
+    font-family: 微软雅黑;
+}

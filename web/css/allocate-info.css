@@ -1,0 +1,161 @@
+﻿/*公共*/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+	margin: 0;
+	padding: 0;
+	font-family: 'Microsoft Yahei', Tahoma, Helvetica, Arial, SimSun, sans-serif;
+}
+body{
+	background: #fff;
+
+}
+li{
+	list-style: none;
+}
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+a,a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+.m-t-15{
+	margin-top: 15px;
+}
+button{
+	outline: none !important;
+	}
+
+
+  	.allocate-row{
+    		padding-left: 100px;
+    		margin-bottom: 15px;
+    		position: relative;
+    	}
+    	/*标题*/
+    	.allocate_name{
+	    position: absolute;
+	    left: 0px;
+	    color: #317df4;
+	    width: 100px;
+	    text-align: right;
+	    padding-top: 5px;
+    	}  
+    	/*显示区域*/
+    	.allocate_show{
+			padding-bottom: 20px;
+			padding-left: 20px;
+			border:2px solid #869fd0;background:#e0e0dc
+		}
+    	.allocate_show_title{
+	    font-size: 14px;
+	    height: 40px;
+	    line-height: 40px;
+	    margin-bottom: 5px;
+    	}
+ 	.allocate_show_para{
+	  	  color: #999;
+	 	  margin-bottom: 10px;
+ 	}
+ 	.allocate-show-picbox{
+ 		border: 1px solid #ddd;
+ 	
+ 		overflow: hidden;
+ 	}
+
+	
+    	
+ /*按钮组*/
+ 
+ .btn-allocate {
+ 	padding: 5px 15px;
+ 	margin-bottom: 10px;
+ 	margin-right: 10px;
+ 	font-size: 12px;
+ 	display: inline-block;
+ }
+ 
+ .btn-allocate:last-child {
+ 	margin-right: 0px;
+ }
+
+
+ /*正常的按钮*/
+ 
+ .btn-allocate.btn-normal {
+ 	border-radius: 0px;
+ 	border: 1px solid #ddd;
+ 	color: #000;;
+ }
+ 
+ .btn-allocate.btn-normal:hover {
+ 	color: #317df4;
+ 	border: 1px solid #317df4;
+ }
+ 
+ .btn-allocate.btn-normal.active {
+ 	color: #fff;
+ 	background: #317df4;
+ 	border: 1px solid #317df4;
+ }
+    	
+.btn-allocate	.select-color{
+	background: red;
+    padding: 0px 7px;
+    margin-right: 8px;
+	}
+	
+   .allocate-row  	.checkbox label{
+    		margin-right: 10px;
+    	}
+    	.allocate-row .btn-box{
+    		display: inline-block;  		
+    	}
+   .allocate-row  	.reset-btn{
+    		border: 1px solid #317df4;
+    		color: #317df4;
+    	}
+    	.allocate-row 	.save-btn{
+    		background: #317df4;
+    		border: 1px solid #317df4;
+    		color: #fff;
+    	}
+.allocate_show input{
+	height: 30px;
+}
+allocate-show-picbox img{
+	width: 100%;
+	height: 100%;
+}
+
+.bg {
+	background: url('/image/food1.jpg');
+	height:1000px;
+	text-align: center;
+	line-height: 600px;
+}
+.bg-blur {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(5px);
+}
+#iconimg{
+	position:absolute;
+	z-index:999;
+	top:150px;
+	left:44%;
+	margin:auto;
+	height:80px;
+	width:320px;
+
+}

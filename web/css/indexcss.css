@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    zoom: 1;
+
+    /*-webkit-tap-highlight-color:rgba(255,255,255,0);-webkit-overflow-scrolling:touch;overflow-scrolling:touch;*/
+}
+ul {
+    list-style: none;
+}
+.top {
+    background-color: #404A54;
+    height: 60px;
+}
+
+.top * {
+    color: #FFF;
+}
+
+.top li {
+    font-size: 18px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    margin-top: -2px;
+}
+
+.footer {
+    background-color: #404A54;
+    height: 400px;
+}
+.jumbotron {
+    padding: 10px 30px 10px 30px;
+}
+
+.jumbotron p {
+    font-size: 14px;
+    line-height: 2.0;
+}
+
+.jumbotron h4 {
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.8;
+}
+
+.beleft {
+    float: left;
+    margin-left: 100px;
+}
+.carousel {
+    height: 300px;
+}
+
+.carousel .item {
+    height: 300px;
+}
+
+.carousel img {
+    min-height: 300px;
+    width: 100%;
+
+}
+button.navbar-toggle { margin-top: 15px;background-color:#fbfbfb;}/*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/
+button.navbar-toggle > span.icon-bar {background-color:#dedede}
+#userlongin a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#userlongin a:hover{
+    color: darkcyan;
+    font-size: larger;
+    text-decoration: none;
+
+}
+
+
+#shopnav{
+    width: 100%;
+    line-height: 50px;
+    background-color: #fff;
+}
+
+/*find_nav*/
+
+.find_nav {
+    width: 70%;
+    margin:auto;
+    height: 45px;
+    background-color:#fff;
+    top: 0;
+    z-index: 99;
+    border-bottom: 1px solid #fff;
+    display: -moz-box;
+    display: -webkit-box;
+    /*display: box;*/
+    margin: auto;
+}
+.find_nav_left {
+    height: 46px;
+    position: relative;
+    overflow: hidden;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+}
+.find_nav_list {
+    position: absolute;
+    left: 0;
+}
+.find_nav_list ol {
+    position: relative;
+    white-space: nowrap;
+    font-size: 0;
+}
+.find_nav_list ol li {
+    display: inline-block;
+    padding: 0 13px;
+    width: 100px;
+}
+.find_nav_list  li {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 46px;
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+    text-decoration: none;
+
+}
+.find_nav_cur {
+    color: #48a5f4 !important;
+}
+.sideline {
+    display: block;
+    position: absolute;
+    border: 0;
+    height: 2px;
+    width: 100px;
+    background-color: #48a5f4;
+    left: 0px;
+    top: 43px;
+    pointer-events: none;
+}
+.search_logo {
+    display: block;
+    width: 44px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #48a5f4;
+}
+#main{
+    background-color: #f7f7f7;
+    height: 100%;
+}
+body{
+    background-color: #f7f7f7;
+    height: 100%;
+}
+
+
+.scrollspy-nav a.am-active {
+     color: #fff;
+     font-weight: bold;
+ }
+#container{
+    width:70%;
+
+}
+#shopmenunav{
+    background: #FFFFFF;
+}
+#shopnotice{
+
+    margin-bottom: 20px;
+    border-radius: 2px 2px 0 0;
+    background-color: #f7f7f7;
+    box-shadow: 0 0px 0px rgba(0,0,0,.12);
+    position: fixed;
+}
+.shoptitle{
+
+    padding: 0 1em;
+    line-height: 2.8em;
+    background-color: #0089dc;
+    color: #fff;
+}
+.noticefont{
+    padding: 10px 15px;
+    line-height: 2;
+}
+#deliverynote{
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+}
+.menufood{
+    margin-bottom: 12px;
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    height: 102px;
+    position: relative;
+    float: left;
+    margin-right: 2%;
+    padding-right: 10px;
+    width: 98%;
+}
+.menufoodimg{
+    float: left;
+    margin-right: 14px;
+    width: 100px;
+    height: 100px;
+}
+.menufoodname{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.evaluation{
+
+    overflow: hidden;
+    color: #ffc30c;
+}
+.menufoodprice{
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f74342;
+}
+.menubutton{
+    display: inline-block;
+    background-color: #0089dc;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border: 0;
+    cursor: pointer;
+    width: 90px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 20px;
+    text-align: center;
+    outline: 0;
+}
